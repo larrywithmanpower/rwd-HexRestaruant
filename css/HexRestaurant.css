@@ -1230,6 +1230,7 @@ a.pure-button-selected {
 }
 .tool-bar button{
     position: absolute;
+    top: 0;
     padding: 10px 10px;
     color: #fff;
     background: #3d1101;
@@ -1277,7 +1278,7 @@ a.pure-button-selected {
         width: 98%;
     }
     .tool-bar .pure-form {
-        width: 92%;
+        width: 97%;
     }
     .tool-bar > span{
         display:block;
@@ -1290,6 +1291,11 @@ a.pure-button-selected {
         top: 50px;
         right: -10px;
     }  
+}
+@media(max-width: 414px) {
+    .tool-bar .pure-form {
+        width: 92%;
+    }
 }
 /* ..........product-list.......... */
 .product-list ul{
@@ -1407,4 +1413,5 @@ a.pure-button-selected {
     }.product-list img{
         width: 100%;
     }
-/* ==========cart End========== */
+}
+/* ==========cartEnd========== */
